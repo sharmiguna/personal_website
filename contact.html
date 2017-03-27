@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+
+<style type="text/css">
+  
+</style>
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="cssfiles/socialnw.css"/>
+<link rel="stylesheet" type="text/css" href="cssfiles/personal.css"/>
+<link rel="stylesheet" href="assets/style.css" />
+
+<link rel="shortcut icon" href="images/icon1web.ico" type="image/x-icon">
+<link rel="icon" href="images/icon1web.ico" type="image/x-icon">
+
+<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<title>
+		My Personal page
+	</title>
+
+ <!--  <script>
+    function(_id) { return document.getElementById('id'); }
+    function submitForm() {
+      _("s").disabled = true;
+      _("status").innerHTML = "wait...";
+      var formdata= new Formdata();
+
+      formdata.append('e', _("e").value);
+      formdata.append('n', _("n").value);
+
+      formdata.append('c', _("c").value);
+
+      var ajax= new XMLHTTPRequest();
+      ajax.open("POST", 'example_parser.php');
+      ajax.onreadystatechange = function () {
+        if(ajax.readyState == 4 && ajax.status == 200) {
+          if(ajax.responseText == 'success') {
+            _('my_form').innerHTML = '<h2>Thanks ' +  _("e").value + 'your message is sent </h2';         
+          } else {
+            _("status").innerHTML =ajax.responseText;
+            _
+
+          }
+
+        }
+        // body...
+      }
+
+      // body...
+    }
+  </script> -->
+</head>
+
+
+<body style="background-color: #1c2130;">
+	<div class="topbar animated fadeInLeftBig"></div>
+<!-- Header Starts -->
+<div class="navbar-wrapper">
+      <div class="container">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="top-nav">
+
+          <div class="container" style="width: 100%; padding: 0; margin: 0; padding-right: 5%" >
+            <div class="navbar-header">
+
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <!-- Nav Starts -->
+            <div class="navbar-collapse  collapse" style="color: white; width: 100%; padding: 0; margin: 0">
+               <span style="font-size: 20px; font-family: Candara"> <img src="images/bar1.jpg" width="5%" alt="sharmi"/>  </span>
+
+              <ul class="nav navbar-nav navbar-right scroll" style="height: 100%">
+              <br>
+                 <li ><a href="index.html">HOME</a></li>
+                 <li ><a href="skills.html" >SKILLS</a></li>
+                 <li ><a href="cook.html" >HOBBY</a></li>
+                 <li ><a href="kithandkin.html">KITH and KIN</a></li>
+                 <li><a href="travel.html">TRAVEL</a></li>
+                 <li><a href="resume.html">RESUME</a></li>
+                 <li class="active"> <a href="#"  style="color: #E89F10"> CONTACT</a></li>
+              </ul>
+            </div>
+            <!-- #Nav Ends -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+<form action="mailto:shrmguna18@gmail.com" method="post" enctype="text/plain">
+<div style="margin-top: 10%; color:black; font-size: 16px">
+    <h3 style="color: grey; padding-left: 20px"> Want to contact me? Drop me a message... </h3><br><br>
+    <div class="row" style="margin-bottom: 3%;">
+      <div class="col-md-4" style=" text-align: right;">
+        <b style="color: grey"> Email-id :</b>
+      </div>
+      <div  class="col-md-8">
+        <input type="text" id="e" name="mail" style="border-radius: 5px; background-color: white; width: 27%">
+      </div>
+    </div>
+
+    <div class="row" style="margin-bottom: 3%">
+      <div class="col-md-4" style=" text-align: right;">
+        <b style="color: grey"> Name:</b>
+      </div>
+      <div  class="col-md-8">
+        <input type="text" id="n" name="name" style="border-radius: 5px; background-color: white; width: 33%" > 
+      </div>
+    </div>
+
+    <div class="row" style="margin-bottom: 3%">
+      <div class="col-md-4" style="text-align: right;">
+        <b style="color: grey"> Message :</b>
+      </div>
+      <div  class="col-md-8">
+        <textarea name="content"  id= "c" style="border-radius: 5px; background-color: white; width: 44%; height: 100px"></textarea>
+      </div>
+    </div>
+    
+    <div class="row" style="padding-right: 50%; margin-bottom: 5%">
+      <div class="col-md-12" style="width: 20%; float: right;">
+        <input type="submit" id="s" value="send">
+      </div>
+      
+    </div>
+</div>
+
+</form>
+
+<p style="color: white; font-size: 20px"> or drop me a mail. email id: <u> shrmguna18@gmail.com</u></p>
+
+<div class="social right" style="width: 100%; background-color: black; color: grey; padding: 0; margin:0"> 
+      <p align="right" style="padding:0; margin: 0"> 
+          <a href="https://www.facebook.com/sharmila.gunasekaran.9">
+            <i class="fa fa-facebook" style="font-size: xx-large; padding: 10px;"}></i>
+          </a>
+          <a href="https://www.linkedin.com/in/sharmila-gunasekaran-8a86093b">
+            <i class="fa fa-linkedin" style="font-size: xx-large; padding: 10px;"></i>
+          </a>
+          <a href="https://www.instagram.com/sharmila.gunasekaran/?hl=en">
+            <i class="fa fa-instagram" style="font-size: xx-large; padding: 10px;"></i>
+          </a>
+          <a href="https://github.com/sharmiguna">
+            <i class="fa fa-github" style="font-size: xx-large; padding: 10px; padding-right: 15px"></i>
+          </a></p>
+         @Copyright for Sharmila Gunasekaran.<br>  <br>                          
+</div>
+
+</body>
+</html>
